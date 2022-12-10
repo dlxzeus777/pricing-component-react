@@ -1,0 +1,89 @@
+.price
+{
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 1rem;
+}
+.cards-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 2rem;
+    width: 15rem;
+    border-radius: 7px;
+    height: fit-content;
+}
+.list-item
+{
+    font-weight: 700;
+    padding: 1rem 0;
+    border-bottom: 1px solid hsl(234, 14%, 74%);
+    color: hsl(234, 14%, 74%);
+}
+.cards-list
+{
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+}
+
+.list-item:first-child
+{
+    border-top: 1px solid hsl(234, 14%, 74%);
+}
+.cards-btn
+{
+    width: 100%;
+    padding: .7rem 0;
+    border-radius: 5px;
+    font-family: inherit;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: white;
+    font-weight: 700;
+    background-color: hsl(237, 63%, 64%);
+    margin-top: 1rem;
+    border: 1px solid hsl(237, 63%, 64%);
+}
+.cards-btn:hover{
+    color: hsl(237, 63%, 64%);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+.cards-heading
+{
+    margin: 0;
+    color: hsl(234, 14%, 74%);
+}
+.cards{
+    display: flex;
+    align-items: center;
+}
+.middle
+{
+    height: 25rem;
+    background: linear-gradient(180deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    box-shadow: 0 0 5px black;
+    z-index: 1;
+}
+.middle .white
+{
+    color: white;
+}
+.button
+{
+    color: hsl(237, 63%, 64%);
+    background: white;
+    border: 1px solid white;
+}
+.button:hover{
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    transition: all .3s linear;
+}

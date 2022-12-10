@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    background-color: hsl(240, 78%, 98%);
+    background-image: url(./bg-top.svg), url(./bg-bottom.svg);
+    background-repeat: no-repeat,no-repeat;
+    background-position: top right,bottom left;
+}

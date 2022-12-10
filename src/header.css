@@ -1,0 +1,47 @@
+.slider-container
+{
+    height: 25px;
+    width: 50px;
+    background: linear-gradient(90deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    border: 1px solid hsl(237, 63%, 64%);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: all .4s linear;
+}
+.slider-container:hover
+{
+    opacity: .75;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+.slider{
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+}
+
+.active{
+    justify-content: flex-end;
+    transition: all .4s linear;
+}
+.header-container
+{
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.header-container > h2{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.header-h1
+{
+    text-align: center;
+    color: hsl(233, 13%, 49%);
+}
